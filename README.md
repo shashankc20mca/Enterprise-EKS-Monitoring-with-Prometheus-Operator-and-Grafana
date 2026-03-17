@@ -7,7 +7,7 @@
 
 This project focuses on building a complete monitoring and alerting setup for an Amazon EKS environment. The main goal was to create an observability stack that could monitor the health of the Kubernetes worker nodes, check the availability of important application endpoints, visualize metrics through dashboards, and send alerts when infrastructure or service conditions crossed defined thresholds.
 
-The monitoring stack was built using **Prometheus**, **Grafana**, **Node Exporter**, **Blackbox Exporter**, and **Alertmanager**. This setup was designed to monitor the EKS cluster that I had previously built using Terraform, along with the services running on it such as Jenkins and the application exposed through the Envoy API Gateway.
+The monitoring stack was built using Prometheus, Grafana, Node Exporter, Blackbox Exporter, and Alertmanager. This setup was designed to monitor the EKS cluster provisioned in my earlier Terraform-based project, **[Enterprise GitOps Platform: Automated EKS Infrastructure and 3-Tier Microservices](https://github.com/shashankc20mca/Enterprise-GitOps-Platform-Automated-EKS-Infrastructure-and-3-Tier-Microservices)**, along with the services running on it such as Jenkins and the application exposed through the Envoy API Gateway.
 
 This project helped me understand how monitoring, visualization, and alerting work together in a production-style Kubernetes environment.
 
