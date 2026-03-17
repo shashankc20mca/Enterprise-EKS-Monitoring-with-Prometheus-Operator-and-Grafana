@@ -33,8 +33,8 @@ docker pull grafana/grafana
 
 Before running the Prometheus container, make sure the following files are present in your current directory:
 
-- `prometheus_node_discovery.yml`
-- `alert_rules.yml`
+- [alert_rules.yml](https://github.com/shashankc20mca/Enterprise-EKS-Monitoring-with-Prometheus-Grafana-Node-Exporter-Blackbox-Exporter-and-Alertmanage/blob/main/prometheus/alert_rules.yml)
+- [prometheus_node_discovery.yml](https://github.com/shashankc20mca/Enterprise-EKS-Monitoring-with-Prometheus-Grafana-Node-Exporter-Blackbox-Exporter-and-Alertmanage/blob/main/prometheus/prometheus_node_discovery.yml)
 
 Run the Prometheus container using:
 
@@ -66,7 +66,8 @@ http://<host-ip>:9090
 
 Before running the Alertmanager container, make sure the following file is present in your current directory:
 
-- `alertmanager.yml`
+- [alertmanager.yml](https://github.com/shashankc20mca/Enterprise-EKS-Monitoring-with-Prometheus-Grafana-Node-Exporter-Blackbox-Exporter-and-Alertmanage/blob/main/alertmanager/alertmanager.yml)
+
 
 Run the Alertmanager container using:
 
